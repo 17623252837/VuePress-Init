@@ -8,7 +8,7 @@ module.exports = [
         ]
     },
     {
-        title:'知码学院',
+        title:'信你个鬼',
         collapsable: true,
         children:[
             '/guide/notes/two',
