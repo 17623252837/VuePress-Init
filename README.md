@@ -9,6 +9,16 @@ VuePress 由两部分组成：第一部分是一个极简静态网站生成器�
 
 ## 作用
 初始化完毕，修改配置添加文章即可
+
+
+## 截图
+### 首页
+![5.png](./img/index.jpg)
+
+
+### 二级页面
+![5.png](./img/demo2.jpg)
+
 ##  使用方法
 
 注意：npm install -g vuepress（先全局安装）
@@ -27,10 +37,16 @@ VuePress 由两部分组成：第一部分是一个极简静态网站生成器�
 ```
 ## 访问 http://localhost:7777/
 
-## 截图
-### 首页
-![5.png](./img/index.jpg)
+
+## 部署
+```sh
+## 打包
+1.vuepress build docs
+
+## 通过docker远程部署（nginx），服务器需要开启docker访问端口
+2. 自行参考Dockerfile进行部署
+```
 
 
-### 二级页面
-![5.png](./img/demo2.jpg)
+## 线上地址
+ http://119.23.105.18:7777/   
